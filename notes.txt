@@ -22,8 +22,7 @@ Linear Search
 - is also known as sequential Search
 - it works by sequentially going through the items in one by one
 
-Introduction to Algorithms
-Big 0
+Introduction to Big 0
 - complexity of Algorithm as a function of the size
 - notation to describe complexity
 - complexity is the efficiency
@@ -40,3 +39,7 @@ Big 0
     - quisiLinear
     - exponential(Brute force)
     - factorial(travelling salesman)
+
+
+
+Recursion and Space complexity
