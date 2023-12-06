@@ -21,3 +21,22 @@ Algorith efficiency is measured by looking at the worst case scenario
 Linear Search
 - is also known as sequential Search
 - it works by sequentially going through the items in one by one
+
+Introduction to Algorithms
+Big 0
+- complexity of Algorithm as a function of the size
+- notation to describe complexity
+- complexity is the efficiency
+- complexity is relative
+- is the upper bounds , refers to worst case scenario
+- if the number of steps to complete task does not change regardless of input then the time complexity is O(1)
+- if the number of operations/steps to complete task increase with same scale as input then the complexity is O(n)
+    Types of complexities
+    - Linear
+    - log n
+    - quadratic
+    - polynomial
+    - constant
+    - quisiLinear
+    - exponential(Brute force)
+    
