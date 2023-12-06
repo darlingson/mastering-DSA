@@ -39,4 +39,4 @@ Big 0
     - constant
     - quisiLinear
     - exponential(Brute force)
-    
+    - factorial(travelling salesman)
