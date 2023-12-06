@@ -73,8 +73,21 @@ class LinkedList:
         return '-> '.join(nodes)
     
 
+# insert Test
 l = LinkedList()
 l.add(1)
 l.add(2)
 l.add(3)
 print(l)
+
+
+# search Test
+l2 = LinkedList()
+l2.add(10)
+l2.add(20)
+l2.add(30)
+l2.add(45)
+print(l2.search(30))
+print(l2.search(40))
+print(l2.search(45))
+print(l2)
