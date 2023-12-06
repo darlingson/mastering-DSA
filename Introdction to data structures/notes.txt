@@ -1,0 +1,13 @@
+Data structure
+- a collection of values, format they are stored in, and the relationship between the values stored as well as the operations applied on the data
+- all data structures are required to be able to
+    - access and read values
+    - search
+    - insert values
+    - delete values
+Arrays
+- stores a collection of values, each value is stored on an index
+- they can be homegeneous or heterogeneous
+- contigous data structure, data is stored next to each in memory
+-access an array element is a constant time operation
+
