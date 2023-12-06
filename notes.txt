@@ -1,0 +1,23 @@
+Algorithmic Thinking
+- Algorithmic is set of steps to finish a task
+- Algorithm follow certain set of guidelines
+    - must have a clear problem statement
+    - must have clearly defined input and output
+    - must contain specific set of instruction in a particular order
+    - each step should be distinct and undividable into smaller steps
+    - Algorithms must produce a result
+    - Algorithm should complete
+    - must have consistent results for the same set of input
+- Algorithms must be correct
+- They are 2 measures of Algorithm efficiency
+    - Time complexity
+        - amount of time taken to find a result
+    - Space complexity
+        - amount of space taken up by the Algorithm
+Algorith efficiency is measured by looking at the worst case scenario
+
+
+
+Linear Search
+- is also known as sequential Search
+- it works by sequentially going through the items in one by one
