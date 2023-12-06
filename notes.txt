@@ -43,3 +43,10 @@ Introduction to Big 0
 
 
 Recursion and Space complexity
+- recursive functions call themselves until they reach a base case
+- the nunber of times a function calls itself is called recursive depth
+
+
+Space complexity
+- a measure of how space required grows as size of dataset grows
+- measured using worst case scenario
