@@ -1,4 +1,5 @@
 Algorithmic Thinking
+- an approach that breaks a problem into sub tasks, and also repeatable steps
 - Algorithmic is set of steps to finish a task
 - Algorithm follow certain set of guidelines
     - must have a clear problem statement
