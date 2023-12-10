@@ -109,9 +109,7 @@ class LinkedList:
     
 
 
-l = LinkedList()
-l.add(1)
-print(l)
+
 
 def merge_sort(linked_list):
     """
@@ -168,14 +166,35 @@ def merge(left,right):
     while left_head or right_head:
         if left_head is None:
             current.next_node = right_head
-            right_head = right_head.new_node
+            right_head = right_head.next_node
         elif right_head is None:
             current.next_node = left_head
-            left_head = left_head.new_node
+            left_head = left_head.next_node
         else:
             left_data = left_head.data
             right_data = right_head.data
 
             if left_data < right_data:
                 current.next_node = left_head
-                left_head = left_head.new_node
+                left_head = left_head.next_node
+
+            else:
+                current.next_node = right_head
+                right_head = right_head.next_node
+        current = current.next_node
+    head = merged.head.next_node
+    merged.head = head
+    return merged
+
+
+    
+l = LinkedList()
+l.add(10)
+l.add(2)
+l.add(44)
+l.add(15)
+l.add(200)
+
+print(l)
+sorted_linked_list = merge_sort(l)
+print(sorted_linked_list)
